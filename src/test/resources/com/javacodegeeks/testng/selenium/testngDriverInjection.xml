@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNgSeleniumSuite" parallel="false">
+	<test name="TestNgSeleniumTest">
+		<classes>
+			<class
+				name="com.javacodegeeks.testng.selenium.TestNGSeleniumDriverInjectionExample" />
+		</classes>
+	</test>
+</suite>

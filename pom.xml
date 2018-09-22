@@ -1,0 +1,76 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.javacodegeeks.testng.spring</groupId>
+	<artifactId>testNGSpring</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.test.skip>false</maven.test.skip>
+
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+
+		<spring.version>4.1.5.RELEASE</spring.version>
+
+	</properties>
+
+	<build>
+
+		<plugins>
+			<!-- Surefire Plugin execute TestNG Tests -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.22.0</version>
+				<configuration>
+					<!--Suite testng xml file to consider for test execution -->
+					<suiteXmlFiles>
+						<suiteXmlFile>src\test\resources\com\javacodegeeks\testng\selenium\testngBrowserConfigurable.xml</suiteXmlFile>
+						<suiteXmlFile>src\test\resources\com\javacodegeeks\testng\selenium\testngDataDrivenSearch.xml</suiteXmlFile>
+					<!--<suiteXmlFile>src\test\resources\com\javacodegeeks\testng\selenium\testngDependencyTests.xml</suiteXmlFile> -->
+					<!--<suiteXmlFile>src\test\resources\com\javacodegeeks\testng\selenium\testngDriverInjection.xml</suiteXmlFile> -->
+						<suiteXmlFile>src\test\resources\com\javacodegeeks\testng\selenium\testngSimpleSearch.xml</suiteXmlFile>
+					<!--<suiteXmlFile>src\test\resources\com\javacodegeeks\testng\selenium\driver_context.xml</suiteXmlFile> -->
+
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+
+		</plugins>
+
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.13.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.14.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>${spring.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+	</dependencies>
+
+
+</project>

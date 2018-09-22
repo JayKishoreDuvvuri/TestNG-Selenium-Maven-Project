@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-09-21T20:43:43Z" name="TestNgSeleniumSuite" finished-at="2018-09-21T20:44:10Z" duration-ms="26479">
+    <groups>
+    </groups>
+    <test started-at="2018-09-21T20:43:43Z" name="TestNgSeleniumChromeTest" finished-at="2018-09-21T20:43:56Z" duration-ms="12581">
+      <class name="com.javacodegeeks.testng.selenium.TestNGSeleniumBrowserCfgExample">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumBrowserCfgExample@2fb3536e]" started-at="2018-09-21T20:43:43Z" name="setUp" finished-at="2018-09-21T20:43:47Z" duration-ms="3968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchGoogle(java.lang.String)[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumBrowserCfgExample@2fb3536e]" started-at="2018-09-21T20:43:47Z" name="searchGoogle" data-provider="searchStrings" finished-at="2018-09-21T20:43:52Z" duration-ms="5080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchGoogle -->
+        <test-method signature="searchGoogle(java.lang.String)[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumBrowserCfgExample@2fb3536e]" started-at="2018-09-21T20:43:52Z" name="searchGoogle" data-provider="searchStrings" finished-at="2018-09-21T20:43:55Z" duration-ms="2564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchGoogle -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumBrowserCfgExample@2fb3536e]" started-at="2018-09-21T20:43:55Z" name="quitDriver" finished-at="2018-09-21T20:43:56Z" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.javacodegeeks.testng.selenium.TestNGSeleniumBrowserCfgExample -->
+    </test> <!-- TestNgSeleniumChromeTest -->
+    <test started-at="2018-09-21T20:43:56Z" name="TestNgSeleniumFirefoxTest" finished-at="2018-09-21T20:44:10Z" duration-ms="13835">
+      <class name="com.javacodegeeks.testng.selenium.TestNGSeleniumBrowserCfgExample">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumBrowserCfgExample@209da20d]" started-at="2018-09-21T20:43:56Z" name="setUp" finished-at="2018-09-21T20:44:02Z" duration-ms="5884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchGoogle(java.lang.String)[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumBrowserCfgExample@209da20d]" started-at="2018-09-21T20:44:02Z" name="searchGoogle" data-provider="searchStrings" finished-at="2018-09-21T20:44:05Z" duration-ms="3016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchGoogle -->
+        <test-method signature="searchGoogle(java.lang.String)[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumBrowserCfgExample@209da20d]" started-at="2018-09-21T20:44:05Z" name="searchGoogle" data-provider="searchStrings" finished-at="2018-09-21T20:44:06Z" duration-ms="1403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchGoogle -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumBrowserCfgExample@209da20d]" started-at="2018-09-21T20:44:06Z" name="quitDriver" finished-at="2018-09-21T20:44:10Z" duration-ms="3532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.javacodegeeks.testng.selenium.TestNGSeleniumBrowserCfgExample -->
+    </test> <!-- TestNgSeleniumFirefoxTest -->
+  </suite> <!-- TestNgSeleniumSuite -->
+  <suite started-at="2018-09-21T20:44:35Z" name="TestNgSeleniumSuite (1)" finished-at="2018-09-21T20:44:39Z" duration-ms="3499">
+    <groups>
+    </groups>
+    <test started-at="2018-09-21T20:44:35Z" name="TestNgSeleniumTest" finished-at="2018-09-21T20:44:39Z" duration-ms="3499">
+      <class name="com.javacodegeeks.testng.selenium.TestNGSeleniumSimpleSearchExample">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumSimpleSearchExample@6bb4dd34]" started-at="2018-09-21T20:44:29Z" name="initDriver" finished-at="2018-09-21T20:44:35Z" duration-ms="6091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="searchTestNGInGoogle()[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumSimpleSearchExample@6bb4dd34]" started-at="2018-09-21T20:44:35Z" name="searchTestNGInGoogle" finished-at="2018-09-21T20:44:39Z" duration-ms="3499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTestNGInGoogle -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumSimpleSearchExample@6bb4dd34]" started-at="2018-09-21T20:44:39Z" name="quitDriver" finished-at="2018-09-21T20:44:42Z" duration-ms="3093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.javacodegeeks.testng.selenium.TestNGSeleniumSimpleSearchExample -->
+    </test> <!-- TestNgSeleniumTest -->
+  </suite> <!-- TestNgSeleniumSuite (1) -->
+  <suite started-at="2018-09-21T20:44:10Z" name="TestNgSeleniumSuite (0)" finished-at="2018-09-21T20:44:25Z" duration-ms="15543">
+    <groups>
+    </groups>
+    <test started-at="2018-09-21T20:44:10Z" name="TestNgSeleniumTest" finished-at="2018-09-21T20:44:25Z" duration-ms="15543">
+      <class name="com.javacodegeeks.testng.selenium.TestNGSeleniumDataDrivenSearchExample">
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumDataDrivenSearchExample@18f8cd79]" started-at="2018-09-21T20:44:10Z" name="springTestContextPrepareTestInstance" finished-at="2018-09-21T20:44:16Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="6010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumDataDrivenSearchExample@18f8cd79]" started-at="2018-09-21T20:44:10Z" name="springTestContextBeforeTestClass" finished-at="2018-09-21T20:44:10Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumDataDrivenSearchExample@18f8cd79]" started-at="2018-09-21T20:44:16Z" name="springTestContextBeforeTestMethod" finished-at="2018-09-21T20:44:16Z" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.javacodegeeks.testng.selenium.TestNGSeleniumDataDrivenSearchExample.searchGoogle(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="printBrowserUsed()[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumDataDrivenSearchExample@18f8cd79]" started-at="2018-09-21T20:44:16Z" name="printBrowserUsed" finished-at="2018-09-21T20:44:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printBrowserUsed -->
+        <test-method signature="searchGoogle(java.lang.String)[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumDataDrivenSearchExample@18f8cd79]" started-at="2018-09-21T20:44:16Z" name="searchGoogle" data-provider="searchStrings" finished-at="2018-09-21T20:44:24Z" duration-ms="8009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchGoogle -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumDataDrivenSearchExample@18f8cd79]" started-at="2018-09-21T20:44:24Z" name="springTestContextBeforeTestMethod" finished-at="2018-09-21T20:44:24Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.javacodegeeks.testng.selenium.TestNGSeleniumDataDrivenSearchExample.searchGoogle(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="searchGoogle(java.lang.String)[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumDataDrivenSearchExample@18f8cd79]" started-at="2018-09-21T20:44:24Z" name="searchGoogle" data-provider="searchStrings" finished-at="2018-09-21T20:44:25Z" duration-ms="1512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchGoogle -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumDataDrivenSearchExample@18f8cd79]" started-at="2018-09-21T20:44:24Z" name="springTestContextAfterTestMethod" finished-at="2018-09-21T20:44:24Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.javacodegeeks.testng.selenium.TestNGSeleniumDataDrivenSearchExample.searchGoogle(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumDataDrivenSearchExample@18f8cd79]" started-at="2018-09-21T20:44:25Z" name="quitDriver" finished-at="2018-09-21T20:44:29Z" duration-ms="4102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumDataDrivenSearchExample@18f8cd79]" started-at="2018-09-21T20:44:25Z" name="springTestContextAfterTestMethod" finished-at="2018-09-21T20:44:25Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.javacodegeeks.testng.selenium.TestNGSeleniumDataDrivenSearchExample.searchGoogle(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:com.javacodegeeks.testng.selenium.TestNGSeleniumDataDrivenSearchExample@18f8cd79]" started-at="2018-09-21T20:44:25Z" name="springTestContextAfterTestClass" finished-at="2018-09-21T20:44:25Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.javacodegeeks.testng.selenium.TestNGSeleniumDataDrivenSearchExample -->
+    </test> <!-- TestNgSeleniumTest -->
+  </suite> <!-- TestNgSeleniumSuite (0) -->
+</testng-results>
